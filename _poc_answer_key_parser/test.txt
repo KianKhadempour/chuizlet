@@ -1,0 +1,442 @@
+041chk - 1 - February 27, 2004
+Chemistry 12
+January 2004 Provincial Examination
+ANSWER KEY / SCORING GUIDE
+CURRICULUM:
+Organizers Sub-Organizers
+1. Reaction Kinetics
+2. Dynamic Equilibrium
+3. Solubility Equilibria
+4. Acids, Bases, and Salts
+5. Oxidation – Reduction
+A, B, C
+D, E, F
+G, H, I
+J, K, L, M, N, O, P, Q, R
+S, T, U, V, W
+Part A: Multiple Choice
+Q K C S CO PLO Q K C S CO PLO
+1. D K 1 1 A6 31. D U 1 4 K6
+2. B U 1 1 A4 32. A U 1 4 K6, M2
+3. D U 1 1 B3 33. C U 1 4 L10
+4. B U 1 1 B6, C4 34. A U 1 4 L12
+5. D U 1 1 C2 35. DELETED
+6. D U 1 1 C5, B2 36. B U 1 4 M4
+7. D U 1 2 D2 37. D U 1 4 N1
+8. C H 1 2 D4 38. A U 1 4 N3
+9. C U 1 2 D7 39. C K 1 4 O1
+10. B K 1 2 D9 40. C U 1 4 O4
+11. A U 1 2 E4 41. D K 1 4 P5
+12. B U 1 2 E3 42. B U 1 4 P3
+13. B U 1 2 F2 43. B H 1 4 Q1
+14. A U 1 2 F3 44. A H 1 4 Q4
+15. C U 1 2 F5 45. C K 1 4 R1
+16. B U 1 2 F7 46. D K 1 4 R4
+17. D U 1 2 F8 47. C U 1 5 S1, 2
+18. D U 1 3 G1 48. A U 1 5 S1
+19. B U 1 3 G4 49. C U 1 5 S2
+20. A U 1 3 H1 50. C U 1 5 S2
+21. D U 1 3 H2 51. B U 1 5 S4
+22. B U 1 3 H6 52. C U 1 5 S6
+23. A U 1 3 I2 53. C U 1 5 T3
+24. DELETED 54. C H 1 5 U2
+25. B U 1 3 I5 55. D U 1 5 U2, L11
+26. A U 1 3 I6 56. B K 1 5 U6
+27. D U 1 4 J2 57. B U 1 5 U3, 5
+28. A K 1 4 J6 58. C U 1 5 V3
+29. A U 1 4 J8 59. A K 1 5 W1
+30. A H 1 4 K1, 3, 4 60. A U 1 5 W4
+Multiple Choice = 60 marks
+041chk - 2 - February 27, 2004
+Part B: Written Response
+Q B CS CO PLO
+1. 1 U 5 1 A3, 5
+2. 2 U 3 2 E2
+3. 3 U 3 3 H2, 3, I6
+4. 4 U 4 4 J7, K6, 8
+5. 5 U 5 4 M3, N2
+6. 6 U 3 4 P1
+7. 7 U 4 5 T2
+8. 8 U/H 3 5 W6
+Written Response = 30 marks
+Multiple Choice = 60 (60 questions)
+Written Response = 30 (8 questions)
+EXAMINATION TOTAL = 90 marks
+LEGEND:
+Q = Question Number K = Keyed Response C = Cognitive Level
+B = Score Box Number S = Score CO = Curriculum Organizer
+PLO = Prescribed Learning Outcome
+041chk - 3 - February 27, 2004
+PART B: WRITTEN RESPONSE
+Value: 30 marks Suggested Time: 40 minutes
+INSTRUCTIONS: You are expected to communicate your knowledge and understanding of chemical
+principles in a clear and logical manner. Your steps and assumptions leading to a
+solution must be written in the spaces below the questions. Answers must include
+units where appropriate and be given to the correct number of significant figures.
+For questions involving calculations, full marks will NOT be given for
+providing only an answer.
+1. The release of O2( ) g resulting from the decomposition of bleach was measured in
+two different experiments. Data was collected and the following graph was drawn:
+10
+20
+30
+40
+50
+70
+1.0 2.0 3.0 4.0
+Volume
+O2
+( ) mL
+Time (min)
+Experiment 2
+Experiment 1
+60
+5.0
+a) Calculate the average rate of reaction for each experiment. (2 marks)
+Solution:
+For Example:
+Experiment 1: 60
+2 5 24 mL mL . min = min
+Experiment 2: 50
+4 5 11 mL mL . min = min
+¨ 1 mark
+¨ 1 mark
+041chk - 4 - February 27, 2004
+b) Identify a variable from Experiment 1 and how it was changed to produce the
+different reaction rate for Experiment 2. Explain using collision theory. (3 marks)
+Solution:
+For Example:
+Variable/Change Explanation
+Temperature is decreased. Lower fraction of effective
+collisions.
+OR
+Concentration of reactants was
+decreased.
+Fewer collisions.
+¸
+˝
+Ô
+Ô
+Ô
+Ô
+˛
+Ô
+Ô
+Ô
+Ô
+¨ 3 marks
+041chk - 5 - February 27, 2004
+2. Consider the following equilibrium system:
+C H CH H kJ ( )s () () g g
++ Æ 2 75 ¨ = - 2 4 D
+State three different ways to make more C( )s react. (3 marks)
+Solution:
+For Example:
+Any three of the following:
+• add H2
+• remove CH4
+• decrease temperature
+• increase pressure/decrease volume
+¸
+˝
+Ô
+Ô
+Ô
+Ô
+˛
+Ô
+Ô
+Ô
+Ô
+¨ 3 marks
+041chk - 6 - February 27, 2004
+3. Sufficient Na SO 2 4( )s is added to 0 10 3 2 . M Ba( ) NO to cause a precipitate to form.
+a) Write the net ionic equation for the precipitate formation. (1 mark)
+Solution:
+For Example:
+Ba SO BaSO ( ) aq aq s
++
+( )
+-
+( )
+2 + Æ 4
+2
+4
+¨ 1 mark
+b) Calculate the SO4
+2- [ ] at the moment the precipitate starts to form. (2 marks)
+Solution:
+For Example:
+SO
+K
+Ba
+M
+4
+2
+2
+10
+9
+1 1 10
+0 10
+1 1 10
+-
++
+-
+-
+[ ] =
+[ ]
+= ¥
+= ¥
+sp
+.
+.
+.
+¸
+˝
+Ô
+Ô
+˛
+Ô
+Ô
+¨ 1 mark
+ ¨ 1 mark
+041chk - 7 - February 27, 2004
+4. a) Write the equation to represent the reaction that results when NH4
++ ions are
+mixed with HCO3
+- ions. (2 marks)
+Solution:
+For Example:
+NH HCO NH H CO 4 3 ( ) aq aq 3 aq aq 2 3
++
+( )
+-
+() () + Æ¨ + ¸
+˝
+Ô
+˛
+Ô
+¨ 2 marks
+b) Identify the two bases in the reaction in part a). (1 mark)
+Solution:
+For Example:
+HCO and NH 3 3
+- ¸
+˝
+˛
+¨ 1 mark
+c) Predict whether the reaction will favour the reactants or products.
+Justify your answer. (1 mark)
+Solution:
+For Example:
+Prediction: Reactants
+Justification: K K H CO NH a a 2 3 4
+> +
+¨ 1
+2 mark
+¨ 1
+2 mark
+041chk - 8 - February 27, 2004
+5. Calculate the pH of M NH I 0 60 4 . . Start by writing the equation for the
+predominant equilibrium reaction. (5 marks)
+Solution:
+For Example:
+NH H O H O NH
+I
+C
+E
+4 2 3 3
+0 60 0 0
+0 60
+aq aq aq
+x xx
+x xx
+( )
++
+( ) ( )
++
+( ) + Æ¨ +
+[ ]
+[ ] - ++
+[ ] -
+l
+.
+.
+ (assume x is negligible)
+
+K
+H O NH
+NH
+HO M
+pH
+a
+x x
+x
+= [ ][ ]
+[ ]
+¥ = ( )( )
+( )
+= [ ] = ¥
+=
++
++
+-
++ -
+3 3
+4
+10
+3
+5
+5 6 10 0 60
+1 83 10
+4 74
+. .
+.
+.
+ ¨ 1 mark
+¸
+˝
+Ô
+Ô
+˛
+Ô
+Ô
+¨ 1 mark
+ ¨ 1 mark
+ ¨ 1 mark
+ ¨ 1 mark
+Deduct 1 ( ) 2 mark for incorrect significant figures.
+041chk - 9 - February 27, 2004
+6. A solution of NaOH( ) aq was standardized by titration using oxalic acid ( ) HCO 2 2 4( )s
+as the primary standard. The following data was collected:
+Mass of H C O used g
+Volume of NaOH used mL
+2 2 4 1 02
+40 6
+s
+aq
+( )
+( )
+=
+=
+.
+.
+Calculate the concentration of the NaOH( ) aq . (3 marks)
+Solution:
+For Example:
+H C O NaOH Na C O H O
+Moles of H C O g mol
+g
+mol
+Moles of NaOH mol mol
+NaOH mol
+L M
+2 2 4 2 2 4 2
+2 2 4
+2
+2 2
+2
+2 2
+1 02 90 0 1 133 10
+2 1 13 10 2 267 10
+2 26 10
+0 0406 0 558
+s aq aq
+s
+() ( ) ( ) ()
+( ) -
+- -
+-
++Æ +
+= ¥ =¥
+= ¥ ( ) = ¥
+[ ] = ¥ =
+l
+. . .
+. .
+.
+. .
+¨ 1 mark
+¨ 1 mark
+¨ 1 mark
+Deduct 1 ( ) 2 mark for incorrect significant figures.
+041chk - 10 - February 27, 2004
+7. Balance the following skeletal redox equation in acidic solution: (4 marks)
+MnO As O Mn AsO 4 2 3
+2
+4
+- + 3- + Æ+ (acidic)
+Solution:
+For Example:
+
+58 4 4
+5 2 10 4 5
+20 32 4 25 5 4 16 10 50 20
+4 95 4
+4
+2
+2
+2 23 4
+3
+4 2 23
+2
+2 4
+3
+4 2 23
+e H MnO Mn H O
+H O As O AsO H e
+e H MnO H O As O Mn H O AsO H e
+MnO H O As O Mn
+- + - +
+- + -
+- + - + - + -
+-
+( ) ++ Æ + ¥
+( ) + Æ ++ ¥
+++ + + Æ + + + +
+++ Æ 2
+4
+3 10 18 + - + + + AsO H
+¸
+˝
+Ô
+Ô
+˛
+Ô
+Ô
+¨ 4 marks
+041chk - 11 - February 27, 2004
+8. Draw an electrolytic cell that could be used to plate an iron ring with gold.
+Be sure to include all of the necessary parts. In addition, label the anode, solution
+used and composition of the electrodes. (3 marks)
+Solution:
+For Example:
+Iron Ring
+(Cathode)
+Au
+(Anode)
++ – DC
+Power
+Source
+Au NO3 ( ) 3( ) aq
+¸
+˝
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+˛
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+Ô
+¨ 3 marks
+END OF KEY

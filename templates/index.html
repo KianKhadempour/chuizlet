@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/htmx.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Chuizlet</h1></header>
+    <main>
+      <button hx-on="click" hx-get="/question/random" hx-swap="outerHTML">
+        Load Question
+      </button>
+    </main>
+  </body>
+</html>

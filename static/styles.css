@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "SUSE", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  min-width: 50%;
+}
+
+button {
+  align-self: center;
+  font-family: inherit;
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+main ol {
+  align-self: center;
+}
+
+.question {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.equation {
+  text-indent: 30px;
+}
+
+table.data {
+  margin: 0 auto;
+  border: 2px solid black;
+  text-align: center;
+}
+
+table.data.inline {
+  display: inline-table;
+}
+
+table.data th, table.data td {
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.correct {
+  color: rgb(0, 175, 0);
+}
+
+.incorrect {
+  color: rgb(175, 0, 0);
+}

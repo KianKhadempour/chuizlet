@@ -1,0 +1,8 @@
+<div class="question">{{ question.text|safe }}</div>
+<ol type="a">
+  {% for i, answer in enumerate(question.answers) %}
+  <li hx-get="/question/{{ id }}/answer/{{ i }}" hx-target="main">
+    {{ answer|safe }}
+  </li>
+  {% endfor %}
+</ol>

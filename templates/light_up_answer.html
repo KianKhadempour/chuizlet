@@ -1,0 +1,15 @@
+<div class="question">{{ question.text|safe }}</div>
+<ol type="a">
+  {% for i, answer in enumerate(question.answers) %} {% if i ==
+  correct_answer_id %}
+  <li class="correct">{{ answer|safe }}</li>
+  {% elif not is_correct and i == answer_id %}
+  <li class="incorrect">{{ answer|safe }}</li>
+  {% else %}
+  <li>{{ answer|safe }}</li>
+  {% endif %} {% endfor %}
+</ol>
+
+<button hx-on="click" hx-get="/question/random" hx-target="main">
+  Load Another Question
+</button>

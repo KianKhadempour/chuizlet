@@ -1,0 +1,72 @@
+[
+    {
+        "text_file": "1.html",
+        "answers": [
+            "g/min",
+            "g/mL",
+            "min/mL",
+            "g/(mL)(&deg;C)"
+        ],
+        "correct_answer_id": 0
+    },
+    {
+        "text_file": "2.html",
+        "answers": [
+            "decreasing temperature",
+            "adding a catalyst",
+            "increasing the concentration of S<span class=\"molecule\"><sub><em>(s)</em></sub></span>",
+            "increasing the concentration of SO<span class=\"molecule\"><sub>3<em>(s)</em></sub></span>"
+        ],
+        "correct_answer_id": 1
+    },
+    {
+        "text_file": "3.html",
+        "answers": [
+            "Catalyst",
+            "Geometry",
+            "Concentration",
+            "Kinetic energy"
+        ],
+        "correct_answer_id": 1
+    },
+    {
+        "text_file": "4.html",
+        "answers": [
+            "positive and the reaction is exothermic",
+            "negative and the reaction is exothermic",
+            "positive and the reaction is endothermic",
+            "negative and the reaction is endothermic"
+        ],
+        "correct_answer_id": 1
+    },
+    {
+        "text_file": "5.html",
+        "answers": [
+            "behaves as a catalyst",
+            "supplies activation energy",
+            "is part of the rate determining step",
+            "lowers the activation energy barrier"
+        ],
+        "correct_answer_id": 1
+    },
+    {
+        "text_file": "6.html",
+        "answers": [
+            "Forward and reverse rates increase",
+            "Forward and reverse rates decrease",
+            "Forward rate increases and reverse rate decreases",
+            "Forward rate decreases and reverse rate increases"
+        ],
+        "correct_answer_id": 3
+    },
+    {
+        "text_file": "7.html",
+        "answers": [
+            "temperature does not change",
+            "macroscopic properties are constant",
+            "forward and reverse reactions continue to occur",
+            "concentrations of reactants and products are constant"
+        ],
+        "correct_answer_id": 2
+    }
+]
