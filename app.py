@@ -1,9 +1,19 @@
 import json
+import shutil
+from atexit import register
 from dataclasses import dataclass
 from pathlib import Path
 from random import randint
+from tempfile import TemporaryDirectory
+from typing import TYPE_CHECKING
 
+from bs4 import BeautifulSoup
 from flask import Flask, render_template
+
+if TYPE_CHECKING:
+    from os import PathLike
+
+type StrPath = str | PathLike[str]
 
 app = Flask(__name__)
 
@@ -15,9 +25,24 @@ class Question:
     correct_answer_id: int
 
 
-def json_to_questions(path: Path) -> list[Question]:
-    print(path)
-    questions_files = path.glob("questions/**/questions.json")
+def prefix_image_src(html: str, relative_path: Path, dir: Path) -> str:
+    if "<img" not in html:
+        return html
+
+    soup = BeautifulSoup(html, "lxml")
+
+    for img in soup("img"):
+        shutil.copy(f"{relative_path}/{img["src"]}", dir)
+        final_path = f"/static/{str(dir.name)}/{Path(img["src"]).name}"
+
+        img["src"] = final_path
+
+    return soup.prettify()
+
+
+def json_to_questions(path: StrPath, dir: Path) -> list[Question]:
+    path = Path(path)
+    questions_files = path.glob("**/questions.json")
     ret: list[Question] = []
     for questions_file in questions_files:
         with open(questions_file) as f:
@@ -25,9 +50,13 @@ def json_to_questions(path: Path) -> list[Question]:
             for question in questions:
                 ret.append(
                     Question(
-                        questions_file.parent.joinpath(
-                            question["text_file"]
-                        ).read_text(),
+                        prefix_image_src(
+                            questions_file.parent.joinpath(
+                                question["text_file"]
+                            ).read_text(),
+                            questions_file.parent,
+                            dir,
+                        ),
                         tuple(question["answers"]),
                         question["correct_answer_id"],
                     )
@@ -36,7 +65,9 @@ def json_to_questions(path: Path) -> list[Question]:
     return ret
 
 
-QUESTIONS = json_to_questions(Path("."))
+with TemporaryDirectory(dir="static", delete=False) as tmpdir:
+    questions = json_to_questions("questions", Path(tmpdir))
+    register(lambda: shutil.rmtree(tmpdir))
 
 
 @app.get("/")
@@ -46,10 +77,10 @@ def index():
 
 @app.get("/question/<int:id>")
 def get_question(id: int):
-    if id >= len(QUESTIONS):
+    if id >= len(questions):
         return f"<p>question {id} not found</p>"
 
-    question = QUESTIONS[id]
+    question = questions[id]
 
     return render_template(
         "question.html", question=question, enumerate=enumerate, id=id
@@ -58,9 +89,9 @@ def get_question(id: int):
 
 @app.get("/question/random")
 def get_question_random():
-    id = randint(0, len(QUESTIONS) - 1)
+    id = randint(0, len(questions) - 1)
 
-    question = QUESTIONS[id]
+    question = questions[id]
 
     return render_template(
         "question.html", question=question, enumerate=enumerate, id=id
@@ -69,7 +100,7 @@ def get_question_random():
 
 @app.get("/question/<int:question_id>/answer/<int:answer_id>")
 def check_answer(question_id: int, answer_id: int):
-    question = QUESTIONS[question_id]
+    question = questions[question_id]
     correct_answer_id = question.correct_answer_id
     is_correct = False
 

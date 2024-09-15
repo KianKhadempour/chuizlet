@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-watchdog = "*"
 flask = "*"
+lxml = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
+watchdog = "*"
 
 [requires]
 python_version = "3.12"

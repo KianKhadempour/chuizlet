@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
-/* Reset some default browser styles */
+:root {
+  --pico-color-green-350: #4eb31b;
+  --pico-color-red-550: #c52f21;
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
   margin: 0;
   padding: 0;
@@ -49,10 +53,14 @@ main ol {
   align-self: center;
 }
 
+li {
+  cursor: pointer;
+}
+
 .question {
   margin: 0 auto;
   margin-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .equation {
@@ -70,14 +78,14 @@ table.data.inline {
 }
 
 table.data th, table.data td {
-  padding: 20px;
+  padding: 40px;
   border: 2px solid black;
 }
 
 .correct {
-  color: rgb(0, 175, 0);
+  color: var(--pico-color-green-350);
 }
 
 .incorrect {
-  color: rgb(175, 0, 0);
+  color: var(--pico-color-red-550);
 }
